@@ -1,0 +1,18 @@
+git config --global user.name "utsavparakhiya3738 "
+git config --global user.email "utsavparakhiya3738@gmail.com"
+
+$ git config --list
+
+git config -- global --unset user.name
+git config -- global --unset user.gmail
+
+git add .
+git commit -m "msg"
+git push origin main
+
+git branch dev
+
+git add .
+git commit -m "create a homepage"
+git push origin home
+
